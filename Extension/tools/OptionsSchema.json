@@ -572,6 +572,15 @@
           "description": "%c_cpp.debuggers.cppdbg.visualizerFile.description%",
           "default": ""
         },
+        "visualizerFiles": {
+          "type": "array",
+          "description": "%c_cpp.debuggers.cppdbg.visualizerFiles.description%",
+          "default": [],
+          "items": {
+            "type": "string",
+            "default": ""
+          }
+        },
         "svdPath": {
           "type": "string",
           "description": "%c_cpp.debuggers.cppdbg.visualizerFile.description",
@@ -747,6 +756,15 @@
           "description": "%c_cpp.debuggers.cppdbg.visualizerFile.description%",
           "default": ""
         },
+        "visualizerFiles": {
+          "type": "array",
+          "description": "%c_cpp.debuggers.cppdbg.visualizerFiles.description%",
+          "default": [],
+          "items": {
+            "type": "string",
+            "default": ""
+          }
+        },
         "showDisplayString": {
           "type": "boolean",
           "description": "%c_cpp.debuggers.showDisplayString.description%",
@@ -906,6 +924,15 @@
           "type": "string",
           "description": "%c_cpp.debuggers.cppvsdbg.visualizerFile.description%",
           "default": ""
+        },
+        "visualizerFiles": {
+          "type": "array",
+          "description": "%c_cpp.debuggers.cppdbg.visualizerFiles.description%",
+          "default": [],
+          "items": {
+            "type": "string",
+            "default": ""
+          }
         },
         "externalConsole": {
           "type": "boolean",

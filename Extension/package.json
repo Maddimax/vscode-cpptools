@@ -3023,6 +3023,15 @@
                 "description": "%c_cpp.debuggers.cppdbg.visualizerFile.description%",
                 "default": ""
               },
+              "visualizerFiles": {
+                "type": "array",
+                "description": "%c_cpp.debuggers.cppdbg.visualizerFiles.description%",
+                "default": [],
+                "items": {
+                  "type": "string",
+                  "default": ""
+                }
+              },
               "svdPath": {
                 "type": "string",
                 "description": "%c_cpp.debuggers.cppdbg.visualizerFile.description",
@@ -3755,6 +3764,15 @@
                 "type": "string",
                 "description": "%c_cpp.debuggers.cppdbg.visualizerFile.description%",
                 "default": ""
+              },
+              "visualizerFiles": {
+                "type": "array",
+                "description": "%c_cpp.debuggers.cppdbg.visualizerFiles.description%",
+                "default": [],
+                "items": {
+                  "type": "string",
+                  "default": ""
+                }
               },
               "showDisplayString": {
                 "type": "boolean",
@@ -4498,6 +4516,15 @@
                 "description": "%c_cpp.debuggers.cppvsdbg.visualizerFile.description%",
                 "default": ""
               },
+              "visualizerFiles": {
+                "type": "array",
+                "description": "%c_cpp.debuggers.cppdbg.visualizerFiles.description%",
+                "default": [],
+                "items": {
+                  "type": "string",
+                  "default": ""
+                }
+              },
               "externalConsole": {
                 "type": "boolean",
                 "description": "%c_cpp.debuggers.cppvsdbg.externalConsole.description%",
@@ -4688,6 +4715,15 @@
                 "type": "string",
                 "description": "%c_cpp.debuggers.cppvsdbg.visualizerFile.description%",
                 "default": ""
+              },
+              "visualizerFiles": {
+                "type": "array",
+                "description": "%c_cpp.debuggers.cppdbg.visualizerFiles.description%",
+                "default": [],
+                "items": {
+                  "type": "string",
+                  "default": ""
+                }
               },
               "sourceFileMap": {
                 "type": "object",
